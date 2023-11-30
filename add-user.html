@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> a/A Prefered Language</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h1>What's your prefered coding language?</h1>
+        <form method="post" action="/algunlado">
+            <fieldset>
+                <legend>Add user</legend>
+
+            <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="first_name" placeholder="your frist name...">
+            </div>
+
+            <div>
+            <label>
+                Last Name
+                <input type="text" name="lastName" placeholder="your last name...">
+            </label>
+            </div>
+
+            <div>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your email...">
+
+            </div>
+
+            <div>
+            <label for="status">Status</label>
+            <select id="status" name="user_status">
+                <option value="Student">Student</option>
+                <option value="Teacher">User</option>
+                <option value="Guest">Guest</option>
+            </select>
+            </div>
+
+            <div class="radio-buttons">
+                <p>What's your favorite language?</p>
+                <div>
+                    <input type="radio" id="html" name="language" value="html">
+                    <label for="html">HTML</label>
+
+                    <input type="radio" id="css" name="language" value="css">
+                    <label for="css">CSS</label>
+
+                    <input type="radio" id="javaScript" name="language" value="javaScript">
+                    <label for="javaScript">JavaScript</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="5" cols="20" placeholder="Tell us more..."></textarea>
+            </div>
+
+            <div>
+                <label for="date">Current Date</label>
+                <input type="date" id="date" name="current_date">
+            </div>
+            <div class="checkboxes">
+             <div>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Sign up for newsletter</label>
+             </div>
+             <div>
+                <input type="checkbox" id="terms-conditions" name="terms-conditions">
+                <label for="terms-conditions">Agree to terms and conditions</label>
+             </div>
+            </div>
+             <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+
+        </form>
+    </body>
+</html>
